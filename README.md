@@ -61,6 +61,7 @@ AWS-CICD-Deployment-with-Github-Actions
 - Save the URI: 030331585350.dkr.ecr.ap-south-1.amazonaws.com/text-s
 4. Create EC2 machine (Ubuntu)
 5. Open EC2 and Install docker in EC2 Machine:
+
 #optional
 
 sudo apt-get update -y
@@ -78,7 +79,9 @@ sudo usermod -aG docker ubuntu
 newgrp docker
 
 6. Configure EC2 as self-hosted runner:
+
 setting>actions>runner>new self hosted runner> choose os> then run command one by one
+
 7. Setup github secrets:
 AWS_ACCESS_KEY_ID=
 
@@ -86,9 +89,10 @@ AWS_SECRET_ACCESS_KEY=
 
 AWS_REGION = us-east-1
 
-AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+AWS_ECR_LOGIN_URI = demo>>  030331585350.dkr.ecr.ap-south-1.amazonaws.com/text-s
 
 ECR_REPOSITORY_NAME = simple-app
+
 About
 No description, website, or topics provided.
 Resources
