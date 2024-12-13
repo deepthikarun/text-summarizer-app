@@ -92,36 +92,3 @@ AWS_REGION = us-east-1
 AWS_ECR_LOGIN_URI = demo>>  030331585350.dkr.ecr.ap-south-1.amazonaws.com/text-s
 
 ECR_REPOSITORY_NAME = simple-app
-
-About
-No description, website, or topics provided.
-Resources
- Readme
-License
- MIT license
- Activity
-Stars
- 159 stars
-Watchers
- 4 watching
-Forks
- 111 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Languages
-Jupyter Notebook
-90.2%
- 
-Python
-9.7%
- 
-Dockerfile
-0.1%
-Footer
-© 2024 GitHub, Inc.
-Footer navigation
-Terms
-Pri
